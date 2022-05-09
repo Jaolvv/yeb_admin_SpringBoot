@@ -6,6 +6,7 @@
     <!--子项目yeb-serve-->
     <modules>
         <module>yeb-serve</module>
+        <module>yeb-generator</module>
     </modules>
 
 
