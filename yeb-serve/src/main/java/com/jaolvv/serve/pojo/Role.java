@@ -37,6 +37,4 @@ public class Role implements Serializable {
 
     @ApiModelProperty(value = "角色名称")
     private String nameZh;
-
-
 }

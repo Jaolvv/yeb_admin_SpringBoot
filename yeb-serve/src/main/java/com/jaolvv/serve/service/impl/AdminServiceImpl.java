@@ -2,7 +2,7 @@ package com.jaolvv.serve.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.jaolvv.serve.config.security.component.JwtTokenUtil;
+import com.jaolvv.serve.config.security.JwtTokenUtil;
 import com.jaolvv.serve.mapper.AdminMapper;
 import com.jaolvv.serve.mapper.AdminRoleMapper;
 import com.jaolvv.serve.mapper.RoleMapper;

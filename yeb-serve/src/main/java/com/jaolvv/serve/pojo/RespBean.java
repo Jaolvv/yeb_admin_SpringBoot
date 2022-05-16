@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class RespBean {
     private long code;
     private String message;
-    private Object object;
+    private Object obj;
 
     /**
      * 成功返回结果
@@ -31,9 +31,10 @@ public class RespBean {
     /**
      * 成功返回结果
      * @param message
+     * @param obj
      * @return
      */
-    public static RespBean success(String message, Object obj){
+    public static RespBean success(String message,Object obj){
         return new RespBean(200,message,obj);
     }
 
@@ -55,5 +56,4 @@ public class RespBean {
     public static RespBean error(String message,Object obj){
         return new RespBean(500,message,obj);
     }
-
 }
